@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+#container {
+  font-family: "Montserrat", sans-serif;
+  background-color: lightgrey;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 50px 0;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 15px;
+  position: relative;
+  max-width: 90%;
+}
+
+#subtitle,
+#description {
+  font-size: 20px;
+  color: black;
+}
+
+#subtitle {
+  margin-bottom: 30px;
+}
+
+#description {
+  margin-top: 30px;
+}
+
+#tooltip {
+  font-size: 14px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+#chart {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.tile {
+  stroke: white;
+  stroke-width: 1px;
+}
+
+.tile:hover {
+  stroke: orange;
+  stroke-width: 3px;
+}
+
+.cell-text {
+  fill: black;
+  font-size: 11px;
+  pointer-events: none;
+  white-space: pre;
+}
+
+#legend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.legend-item {
+  font-size: 16px;
+  color: black;
+  width: 100px;
+  height: 25px;
+  margin: 0 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
